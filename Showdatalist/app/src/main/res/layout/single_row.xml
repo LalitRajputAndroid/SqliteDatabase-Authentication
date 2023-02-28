@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:backgroundTint="#FFFFFF"
+    android:layout_height="120dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:elevation="8dp"
+        android:padding="10dp"
+        android:orientation="vertical"
+        android:background="@drawable/backgroundshape"
+        >
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="name "
+            android:id="@+id/t1_id"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="email"
+            android:id="@+id/t2_id"
+            android:textSize="20sp" />
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/t3_id"
+            android:text="password"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
